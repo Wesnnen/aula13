@@ -1,51 +1,122 @@
-﻿<!DOCTYPE html>
+﻿﻿
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Escola</title>
+    <title>@ViewData["Title"] - Escola .NET</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Escola.styles.css" asp-append-version="true" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <header>
 
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3 bg-dark" >
-            <div class="container" >
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3 bg-dark">
+            <div class="container">
                 <a class="navbar-brand" asp-area="" asp-page="/Index">Escola .Net </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between" >
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-page="/Diferenciais">Diferenciais</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Contato">Contato</a>
+                        </li>
+
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
 
-
-
-
+    <!-- Rodapé -->
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
+
+    <footer>
+        <div class="Base-texto">
+            <ul>
+                <h1> Links </h1>
+                <a href="">Home</a>
+                <a href="">Download</a>
+                <a href="">Blog</a>
+                <a href="">Tool Documentation</a>
+                <a href="">System Status</a>
+                <a href="">Archived Releases</a>
+            </ul>
+
+            <!--<ul>
+                <h1> Platforms </h1>
+                <p> <a href="#">ARM-(SBC)</a> </p>
+                <p> <a href="#">NetHunter-(Mobile)</a> </p>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <i class='bx bxl-amazon' style='color:#ffffff'><a href="#"> Amazon AWS</a></i>
+                <i class='bx bxl-docker'><a href="#"> Docker</a></i>
+                <a href="#">Linode</a>
+                <a href="#"> Microsoft Azure</a>
+                <i class='bx bxl-microsoft' style='color:#ffffff'><a href="#"> Microsoft-Store-(WSL)</a></i>
+                <i class='bx bxl-venmo' style='color:#ffffff'><a href="#"> Vagrant</a></i>
+            </ul>-->
+
+            <ul>
+                <h1> Development </h1>
+                <a href="#">Bug Tracker </a>
+                <a href="#">Continuous Integration </a>
+                <a href="#">Network Mirror </a>
+                <a href="#">Package Tracker </a>
+
+            </ul>
+
+            <ul>
+                <h1> Community </h1>
+                <i class='bx bxl-discord-alt'><a href="#"> Discord </a></i>
+                <a href="#"> Support-Forum </a>
+            </ul>
+
+            <ul>
+                <h1> Follow Us </h1>
+                <i class='bx bxl-facebook-circle'><a href="#"> Facebook </a></i>
+                <i class='bx bxl-instagram'><a href="#"> Instagram </a></i>
+                <i class='bx bxl-twitter'><a href="#"> Twitter </a></i>
+
+            </ul>
+
+            <ul>
+                <h1> Policies </h1>
+                <a href="#"> Cookie-Policy </a>
+                <a href="#"> Privacy-Policy </a>
+                <a href="#"> Trademark-Policy </a>
+            </ul>
+
+            <ul>
+                <h1> Policies </h1>
+                <img src="https://www.pulumi.com/logos/tech/dotnet.png" style="width: 10rem;height: 8rem;" alt="">
+                <p>© OffSec Services Limited 2024. <br>All rights reserved</p>
+            </ul>
+        </div>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </footer>
     <!-- Rodapé -->
-   
- 
+
+
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
