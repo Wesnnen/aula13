@@ -39,75 +39,25 @@
     </header>
 
     <!-- Rodapé -->
-    <div class="container">
-        <main role="main" class="pb-3">
+    <div class="container" style="height:800px">
+        <main role="main" class="pb-3" >
             @RenderBody()
         </main>
     </div>
 
     <footer>
+        <center>
+            <div style="border:solid;border-width:1px; width: 1200px"></div>
+        </center>
         <div class="Base-texto">
             <ul>
-                <h1> Links </h1>
-                <a href="">Home</a>
-                <a href="">Download</a>
-                <a href="">Blog</a>
-                <a href="">Tool Documentation</a>
-                <a href="">System Status</a>
-                <a href="">Archived Releases</a>
+                <a class="nav-link text-dark" asp-area="" asp-page=""><H1>Links</H1></a>
+                 <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
+                 <a class="nav-link text-dark" asp-area="" asp-page="/Diferenciais">Diferenciais</a>
+                 <a class="nav-link text-dark" asp-area="" asp-page="/Contato">Contato</a>
             </ul>
-
-            <!--<ul>
-                <h1> Platforms </h1>
-                <p> <a href="#">ARM-(SBC)</a> </p>
-                <p> <a href="#">NetHunter-(Mobile)</a> </p>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <i class='bx bxl-amazon' style='color:#ffffff'><a href="#"> Amazon AWS</a></i>
-                <i class='bx bxl-docker'><a href="#"> Docker</a></i>
-                <a href="#">Linode</a>
-                <a href="#"> Microsoft Azure</a>
-                <i class='bx bxl-microsoft' style='color:#ffffff'><a href="#"> Microsoft-Store-(WSL)</a></i>
-                <i class='bx bxl-venmo' style='color:#ffffff'><a href="#"> Vagrant</a></i>
-            </ul>-->
-
             <ul>
-                <h1> Development </h1>
-                <a href="#">Bug Tracker </a>
-                <a href="#">Continuous Integration </a>
-                <a href="#">Network Mirror </a>
-                <a href="#">Package Tracker </a>
-
-            </ul>
-
-            <ul>
-                <h1> Community </h1>
-                <i class='bx bxl-discord-alt'><a href="#"> Discord </a></i>
-                <a href="#"> Support-Forum </a>
-            </ul>
-
-            <ul>
-                <h1> Follow Us </h1>
-                <i class='bx bxl-facebook-circle'><a href="#"> Facebook </a></i>
-                <i class='bx bxl-instagram'><a href="#"> Instagram </a></i>
-                <i class='bx bxl-twitter'><a href="#"> Twitter </a></i>
-
-            </ul>
-
-            <ul>
-                <h1> Policies </h1>
-                <a href="#"> Cookie-Policy </a>
-                <a href="#"> Privacy-Policy </a>
-                <a href="#"> Trademark-Policy </a>
-            </ul>
-
-            <ul>
-                <h1> Policies </h1>
                 <img src="https://www.pulumi.com/logos/tech/dotnet.png" style="width: 10rem;height: 8rem;" alt="">
-                <p>© OffSec Services Limited 2024. <br>All rights reserved</p>
             </ul>
         </div>
 
