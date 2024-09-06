@@ -3,8 +3,9 @@
     
     public class Professor
     {
-        public string ImagemUrl { get; set; } = string.Empty; // URL da imagem do filme
-        public string Descricao { get; set; } = string.Empty; // Descrição do filme
+        public string ImagemUrl { get; set; } = string.Empty; 
+        public string Descricao { get; set; } = string.Empty; 
+        public string Nome { get; set; } = string.Empty; 
     }
 }
 

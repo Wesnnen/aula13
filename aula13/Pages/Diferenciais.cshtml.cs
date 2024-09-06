@@ -12,55 +12,64 @@ namespace Escola.Pages
     {
         new Professor
 {
-    Descricao = @"Alvaro Cunha
+    Nome = "Alvaro Cunha",
+    Descricao = @"
 Especialista em Segurança Cibernética e Proteção de Dados",
     ImagemUrl = "Imagens/beard.jpg"
 },
 new Professor
 {
-    Descricao = @"Willy Bronca
+    Nome = "Willy Bronca",
+    Descricao = @"
 Especialista em Inteligência Artificial e Machine Learning",
     ImagemUrl = "Imagens/cigar.jpg"
 },
 new Professor
 {
-    Descricao = @"Leoncio Junior
+     Nome = "Leoncio Junior",
+    Descricao = @"
 Desenvolvedor de Software e Arquitetura de Sistemas",
     ImagemUrl = "Imagens/human.jpg"
 },
 new Professor
 {
-    Descricao = @"Olivia Cabelo
+    Nome = "Olivia Cabelo",
+    Descricao = @"
 Consultora em Infraestrutura de TI e Redes",
     ImagemUrl = "Imagens/girl.jpg"
 },
 new Professor
 {
-    Descricao = @"Elviz Pretzel
+    Nome = "Elviz Pretzel",
+    Descricao = @"
 Engenheiro de Dados e Análise de Big Data",
     ImagemUrl = "Imagens/fashion.jpg"
 },
 new Professor
 {
-    Descricao = @"Zeca Oliveira
+    Nome = "Zeca Oliveira",
+    Descricao = @"
 Especialista em Desenvolvimento de Aplicações Móveis",
     ImagemUrl = "Imagens/man.jpg"
 },
 new Professor
 {
-    Descricao = @"Maria Ana Ramalho
+    Nome = "Maria Ana Ramalho",
+    Descricao = @"
 Analista de Sistemas e Gerenciamento de Projetos de TI",
     ImagemUrl = "Imagens/woman.jpg"
 },
 new Professor
 {
-    Descricao = @"Amélia Ramos
+    Nome = "Amélia Ramos",
+    Descricao = @"
 Especialista em Usabilidade e Design de Interfaces",
     ImagemUrl = "Imagens/womam.jpg"
 },
 new Professor
 {
-    Descricao = @"Oscar José
+    Nome = "Oscar José",
+    Descricao = @"
 Consultor em Transformação Digital e Inovação Tecnológica",
 
     ImagemUrl = "Imagens/Prof.png"

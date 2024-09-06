@@ -148,7 +148,7 @@ header {
 }
 /*Animação*/
 .anim-typewriter {
-    animation: typewriter 4s steps(59) 500ms infinite, blinkTextCursor 500ms steps(49) infinite normal;
+    animation: typewriter 30s steps(59) 500ms infinite, blinkTextCursor 1200ms steps(49) infinite normal;
 }
 
 @keyframes typewriter {
